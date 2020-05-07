@@ -1,0 +1,32 @@
+1) Birkaç ülke için elinizde finansal, ekonomik ve sosyal göstergeler hakkinda Dünya Bankasi verileri oldugunu varsayalim. 
+Bu ülkelerdeki gelisme düzeyini etkileyen faktörleri ölçmek istiyorsunuz. 
+Bu amaçla, milli gelirin nüfusa bölümü olarak tanimlanan kisi basina düsen milli geliri, 
+kalkinma seviyesi için bir vekil olarak kullanmaya karar verdiniz. Kisi basina geliri tahmin etmek için 
+veri kümenizdeki bazi özellikleri kullanmak istiyorsunuz. Bu görev bir siniflandirma görevi mi yoksa bir regresyon görevi mi? Niçin?
+
+Sonucumuz evet hayir gibi bir cevap degil. Kisi basi gelir bir sayisal veri oldugu için yani sürekli veri oldugu için bu soruyu regresyonla çözebilecegimizi düsünüyorum.
+
+
+--
+
+
+2)Asagidaki argümanlardan hangileri yanlistir ve neden?
+a)OLS, özel bir dogrusal regresyon modelidir.
+b)Regresyon modelleri, dogrusal regresyon varsayimlarini karsilamiyorsa kullanissiz hale gelir.
+c)Estimation ve prediction, dogrusal regresyon modelleri baglaminda ayni seydir.
+d)Dogrusal regresyon modeli sadece bir tür regresyon modelidir. Regresyon problemleri, Support Vector Machines veya Random Forests gibi baska modellerle de çözülebilir.
+
+a) OLS bir dogrusal regresyon algoritmasidir.
+b) Dogru
+c)Hayir. Kabaca estimation; elimizdeki data sonucu bir olayi verilere göre tahmin etmektir. Prediction verilere bagli olmadan tahmin etmektir.
+d) DOgru
+
+
+--
+
+3)Proje yöneticinizin, sirketinizin sundugu hangi ücretsiz hizmetlerin, müsterilerinizin daha fazla ücretli hizmet satin almasini 
+sagladigini bulmanizi istedigini varsayalim. Bu görevi bir regresyon problemi olarak formüle edin ve üzerinde 
+çalismak istediginiz potansiyel sonucu ve özellikleri yazin.
+
+Kozmetik ürünleri satan bir sirket olsaydik eger, test'er parfüm veya makyaj malzemelerinin çesitliligi ve çokluguna göre satin alim artabilirdi.
+Bir turizm sirketi olsaydik eger verilen ücretsiz ulasim hizmetlerinin fazlaligi daha fazla tur veya otel satin alimi saglayabilirdi.
